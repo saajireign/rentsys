@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="lib" path="lib/commons-collections-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/db2java.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc_javax.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-jdk14-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.4-dev.jar"/>
+	<classpathentry kind="lib" path="lib/xdoclet-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/xdoclet-hibernate-module-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/xdoclet-xdoclet-module-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/xjavadoc-1.0.2.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

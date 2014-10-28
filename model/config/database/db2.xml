@@ -1,0 +1,16 @@
+   <!-- =================================================================== -->
+   <!-- ant properties/targets for IBM DB2                                   -->
+   <!-- note: this is not a proper xml file (there is no root element)      -->
+   <!--       it is intended to be imported from a *real* xml file          -->
+   <!-- =================================================================== -->
+
+   <property name="database.script.file"           value="${src.dir}/sql/${name}-db2.sql"/>
+   <property name="database.driver.file"           value="${lib.dir}/db2java.jar"/>
+   <property name="database.driver.classpath"      value="${database.driver.file}"/>
+   <property name="database.driver"                value="com.ibm.db2.jcc.DB2Driver"/>
+   <property name="database.url"                   value="jdbc:db2://192.168.12.131:50000/EHR"/>
+   <property name="database.userid"                value="ehr"/>
+   <property name="database.password"              value="ehr456789"/>
+   <property name="database.schema"                value="EHR"/>
+   <property name="database.catalog"               value=""/>
+   
