@@ -54,7 +54,7 @@ public class userAction extends ActionSupport {
 	public String execute() throws Exception {
 		
 		user u =new user(name,money);
-		String s="123";
+		String sss="";
 		us.saveuser(u);
 		return SUCCESS;
 	}
